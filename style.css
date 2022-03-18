@@ -1,5 +1,6 @@
 :root {
     --color-primary:#4285F4;
+    --color-link:#478af6;
     --color-secondary:rgb(1, 183, 1);
     --color-gray:rgb(154, 154, 154);
     --color-black:rgb(0, 0, 0);
@@ -93,6 +94,10 @@ nav .nav__item {
     border-radius: 5px;
 }
 
+.card a, footer a {
+    color: var(--color-link);
+}
+
 .card:hover {
     border: 1.2px solid rgba(94, 94, 94, 0.125);
 }
@@ -123,7 +128,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(227, 227, 227);
+    background-color: rgb(232, 232, 232);
     color:var(--color-gray);
     text-align: center;
     line-height: 3rem;
