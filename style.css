@@ -4,6 +4,7 @@
     --color-secondary:rgb(1, 183, 1);
     --color-gray:rgb(154, 154, 154);
     --color-black:rgb(0, 0, 0);
+    --color-background:rgb(232, 232, 232)
 }
 
 *, 
@@ -128,13 +129,28 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(232, 232, 232);
+    background-color: var(--color-background);
     color:var(--color-gray);
     text-align: center;
     line-height: 3rem;
     padding-top: 2rem;
     border-top: .2rem solid rgb(196, 196, 196);
     margin-top: 5rem
+}
+
+/* Article Styles */
+.article-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* grid-gap:  */
+}
+
+.text-bordered {
+    border: .2rem solid var(--color-black);
+}
+
+.article__about {
+    background-color: var(--color-background);
 }
 
 @media (max-width: 768px) {
