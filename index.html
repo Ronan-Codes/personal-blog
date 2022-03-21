@@ -9,23 +9,27 @@
     <title>Personal Blog</title>
 </head>
 <body>
-    <header class="w-80 w-sm-90">
-        <nav class="nav">
-            <div class="nav__item">
-                <a class="text-gray" href="#">Subscribe</a>
-            </div>
-
-            <div class="nav__item text-center">
-                <a href="#" class="text-black">
-                    <h1>Blog Title</h1>
-                </a>
-            </div>
+    <header class=" w-sm-90 w-sm-100 bg-black">
+        <nav class="nav w-80 w-sm-90">
             
 
-            <div class="nav__item text-end pr-2">
-                <a class="text-gray" href="#">
+            <div class="nav__item   ">
+                <a href="#" class="text-white  text-decor-none">
+                    <h1 class="py-1 text-info">Blog Title</h1>
+                </a>
+            </div>
+
+            <!-- <div class="nav__item">
+                <button class="btn btn--sm btn--info" href="#">Subscribe</button>
+            </div> -->
+            
+
+            <div class="nav__item text-end">
+                <a type="button" class="text-white nav__item--search mr-2" href="#">
                     <i class="fa-solid fa-magnifying-glass"></i>
                 </a>
+                
+                <button class="btn btn--sm btn--secondary" href="#">Subscribe</button>
             </div>
         </nav>
     </header>
@@ -107,7 +111,7 @@
         </div>
     </section>
 
-    <footer class="flex">
+    <footer class="flex bg-black">
         <p class="">Blog template built for <a href="#">Bootstrap</a></p>
         <a href="#">See Design System</a>
     </footer>
