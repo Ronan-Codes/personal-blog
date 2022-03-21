@@ -112,7 +112,6 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* margin-bottom: 2rem; */
 }
 
 nav .nav__item {
@@ -182,9 +181,6 @@ nav .nav__item {
     color: var(--color-link2);
 }
 
-/* .br-100 {
-    border-radius: 50%;
-} */
 
 /* Card Styles */
 .w-80 {
@@ -232,8 +228,6 @@ nav .nav__item {
 .card__text--container {
     height: 75px;
 }
-
-
 
 .article-container {
     display: grid;
@@ -301,11 +295,10 @@ nav .nav__item {
 
 /* Footer Styles */
 footer {
-    position:sticky;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
-    /* background-color: var(--color-background); */
     color:var(--color-gray);
     text-align: center;
     line-height: 1.5em;
